@@ -1,8 +1,5 @@
-name='Kurs:Python'
-print(name)
-task=12
-print(task)
-second= 1.5
-print(second)
-print(second / task)
-print('name=Kurs:Python', 'task=12', 'second=1.5', 'second/task=0.125')
+number_of_completed_tasks=12
+number_of_hours=1.5
+course_name='Python'
+time_for_one_task=number_of_hours/number_of_completed_tasks
+print('Курс:',course_name,',всего задач:', number_of_completed_tasks,', затрачено часов:',number_of_hours,',среднее время выполнения:', time_for_one_task, 'часа.')
